@@ -1,0 +1,22 @@
+{
+  "main": "react.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    }
+  },
+  "map": {
+    "fbjs/lib/ExecutionEnvironment.js": {
+      "production": "@empty"
+    },
+    "./lib/ReactDefaultPerf.js": {
+      "production": "@empty"
+    },
+    "./lib/ReactTestUtils.js": {
+      "production": "@empty"
+    }
+  }
+}
