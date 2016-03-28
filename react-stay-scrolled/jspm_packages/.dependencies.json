@@ -63,7 +63,6 @@
     "loose-envify": "npm:loose-envify@^1.0.0"
   },
   "npm:globals@8.18.0": {},
-  "npm:js-tokens@1.0.2": {},
   "npm:chalk@1.1.1": {
     "ansi-styles": "npm:ansi-styles@^2.1.0",
     "escape-string-regexp": "npm:escape-string-regexp@^1.0.2",
@@ -140,7 +139,8 @@
   "npm:babel-plugin-syntax-class-properties@6.5.0": {
     "babel-runtime": "npm:babel-runtime@^5.0.0"
   },
-  "npm:react-stay-scrolled@0.0.5": {
+  "npm:js-tokens@1.0.3": {},
+  "npm:react-stay-scrolled@0.0.7": {
     "react-dom": "npm:react-dom@^0.14.7"
   }
 }

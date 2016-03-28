@@ -117,7 +117,8 @@ var StayScrolled = function (_Component) {
     key: 'isScrolled',
     value: function isScrolled() {
       var dom = this.getDOM();
-      return dom.scrollTop + dom.offsetHeight === dom.scrollHeight;
+
+      return dom.scrollTop + dom.clientHeight === dom.scrollHeight;
     }
   }, {
     key: 'render',
@@ -148,11 +149,13 @@ StayScrolled.propTypes = {
   startScrolled: _react.PropTypes.bool,
   onStayScrolled: _react.PropTypes.func,
   onScrolled: _react.PropTypes.func,
+  stayInaccuracy: _react.PropTypes.number,
   Velocity: _react.PropTypes.func
 };
 StayScrolled.defaultProps = {
   component: 'div',
-  startScrolled: true
+  startScrolled: true,
+  stayInaccuracy: 0
 };
 StayScrolled.childContextTypes = {
   scrollBottom: _react.PropTypes.func,
