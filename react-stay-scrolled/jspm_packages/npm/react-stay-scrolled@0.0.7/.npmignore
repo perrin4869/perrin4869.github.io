@@ -1,7 +1,0 @@
-lib
-examples
-gulpfile.js
-
-.gitignore
-.travis.yml
-.babelrc
