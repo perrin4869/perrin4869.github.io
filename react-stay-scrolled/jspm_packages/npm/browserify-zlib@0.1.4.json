@@ -1,0 +1,22 @@
+{
+  "main": "src/index.js",
+  "map": {
+    "_stream_transform": "readable-stream/transform"
+  },
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "src/*": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}
