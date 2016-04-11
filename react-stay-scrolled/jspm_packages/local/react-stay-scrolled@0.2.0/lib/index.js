@@ -147,8 +147,10 @@ var StayScrolled = function (_Component) {
 
       var rest = _objectWithoutProperties(_props2, ['component', 'children']);
 
+      var WrapperComponent = component; // Upper case for jsx
+
       return _react2.default.createElement(
-        'component',
+        WrapperComponent,
         _extends({
           ref: this.storeDOM,
           onScroll: this.onScroll
