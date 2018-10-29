@@ -1,9 +1,0 @@
-{
-  "main": "src/ua-parser.js",
-  "format": "cjs",
-  "meta": {
-    "*.json": {
-      "format": "json"
-    }
-  }
-}
